@@ -1,6 +1,6 @@
 public class Dragon extends Monster implements Specialattaker {
-    Dragon(String name) {
-        super(name);
+    Dragon() {
+        super("Dragon");
     }
 
     @Override 

@@ -1,6 +1,6 @@
 public class Robot extends Monster implements Specialattaker {
-    Robot(String name) {
-        super(name);
+    Robot() {
+        super("Robot");
     }
 
     @Override 
