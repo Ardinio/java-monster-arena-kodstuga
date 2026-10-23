@@ -1,3 +1,3 @@
 public interface Specialattaker {
-    void useSpecialAttack();
+    int useSpecialAttack();
 }

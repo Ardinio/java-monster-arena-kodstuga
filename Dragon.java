@@ -4,12 +4,14 @@ public class Dragon extends Monster implements Specialattaker {
     }
 
     @Override 
-    void attack() {
-
+    int attack() {
+        int damage = 20;
+        return damage;
     }
 
     @Override
-    public void useSpecialAttack() {
-        
+    public int useSpecialAttack() {
+        int specialDamge = 5;
+        return specialDamge;
     }
 }

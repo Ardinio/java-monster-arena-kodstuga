@@ -6,5 +6,5 @@ abstract class Monster {
         this.name = name;
     }
 
-    abstract void attack();
+    abstract int attack();
 }

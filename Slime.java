@@ -4,7 +4,8 @@ public class Slime extends Monster {
     }
 
     @Override 
-    void attack() {
-
+    int attack() {
+        int damage = 25;
+        return damage;
     }
 }

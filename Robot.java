@@ -4,12 +4,14 @@ public class Robot extends Monster implements Specialattaker {
     }
 
     @Override 
-    void attack() {
-
+    int attack() {
+        int damage = 15;
+        return damage;
     }
 
     @Override
-    public void useSpecialAttack() {
-        
+    public int useSpecialAttack() {
+        int specialDamage = 10;
+        return specialDamage;
     }
 }
