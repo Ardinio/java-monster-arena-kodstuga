@@ -8,4 +8,9 @@ public class Slime extends Monster {
         int damage = 25;
         return damage;
     }
+
+    @Override 
+    int addPoints() {
+        return point += 3;
+    }
 }

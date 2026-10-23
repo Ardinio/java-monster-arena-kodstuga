@@ -9,6 +9,11 @@ public class Dragon extends Monster implements Specialattaker {
         return damage;
     }
 
+    @Override 
+    int addPoints() {
+        return point += 3;
+    }
+
     @Override
     public int useSpecialAttack() {
         int specialDamge = 5;
