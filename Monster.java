@@ -1,6 +1,10 @@
 abstract class Monster {
     String name;
-    int hp;
+    int hp = 100;
+
+    Monster(String name) {
+        this.name = name;
+    }
 
     abstract void attack();
 }
